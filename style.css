@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+    text-align: center;
+}
+
+.container {
+  display: flex; /* Создаем гибкую структуру */
+  flex-direction: column; /* Располагаем элементы вертикально */
+  min-height: 100vh; /* Минимальная высота равна высоте вьюпорта */
+}
+
+footer {
+  margin-top: auto; /* Здесь вступает в действие магия Flexbox */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
